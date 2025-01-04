@@ -5,3 +5,7 @@ source /opt/ros/noetic/setup.bash
 cd barracuda-description/catkin_ws
 catkin_make
 source devel/setup.bash
+
+# Source ros and catkin_ws in bashrc
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+echo "source /opt/barracuda-description/catkin_ws/devel/setup.bash" >> ~/.bashrc

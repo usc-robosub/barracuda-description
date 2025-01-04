@@ -1,0 +1,10 @@
+services:
+  barracuda-description:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: root
+    container_name: barracuda-description
+    tty: true
+    network_mode: host
+    restart: always
