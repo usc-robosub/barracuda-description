@@ -20,13 +20,13 @@
         <visual>
             <origin xyz="0 0 -0.9" rpy="0 0 1.5708"/>
             <geometry>
-                <mesh filename="file://$(find barracuda_description)/meshes/virgil.dae" scale="1 1 1"/>
+                <mesh filename="file://$(find barracuda_description)/meshes/mantaray_base_link.stl" scale="1 1 1"/>
             </geometry>
         </visual>
         <collision>
             <origin xyz="0 0 -0.9" rpy="0 0 1.5708"/>
             <geometry>
-                <mesh filename="file://$(find barracuda_description)/meshes/virgil.dae" scale="1 1 1"/>
+                <mesh filename="file://$(find barracuda_description)/meshes/mantaray_base_link.stl" scale="1 1 1"/>
             </geometry>
         </collision>
     </link>
