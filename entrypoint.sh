@@ -10,4 +10,4 @@ source devel/setup.bash
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 echo "source /opt/barracuda-description/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
-roslaunch barracuda_description upload.launch
+roslaunch barracuda_description barracuda.launch
