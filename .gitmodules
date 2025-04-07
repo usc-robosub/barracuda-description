@@ -4,4 +4,4 @@
 	branch = main
 [submodule "catkin_ws/src/uuv_descriptions"]
 	path = catkin_ws/src/uuv_descriptions
-	url = https://github.com/usc-robosub/uuv_descriptions.git
+	url = git@github.com:usc-robosub/uuv_descriptions.git
