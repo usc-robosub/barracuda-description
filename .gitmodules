@@ -2,3 +2,6 @@
 	path = catkin_ws/src/barracuda_description
 	url = git@github.com:usc-robosub/barracuda_description.git
 	branch = main
+[submodule "catkin_ws/src/uuv_descriptions"]
+	path = catkin_ws/src/uuv_descriptions
+	url = https://github.com/usc-robosub/uuv_descriptions.git
