@@ -8,6 +8,7 @@ WORKDIR /opt
 RUN apt-get update && apt-get install -y \
     ros-noetic-xacro \
     ros-noetic-robot-state-publisher \
+    ros-noetic-joint-state-publisher \
     && rm -rf /var/lib/apt/lists/*
 
 COPY . /opt/barracuda-description
